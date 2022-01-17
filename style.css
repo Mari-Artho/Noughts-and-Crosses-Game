@@ -1,0 +1,28 @@
+body{
+    text-align: center;
+}
+
+section{
+    margin-left: 350px;
+}
+
+.row div {
+    padding: 10px;
+    border: 1px solid black;
+    height: 60px;
+    width:  60px;
+    float: left;
+    
+}
+
+.row {
+    clear: both;
+}
+
+button{
+    height: 50px;
+    width: 150px;
+    font-size: 2rem;
+    background-color: #f8b73d;
+    margin:30px;
+}
