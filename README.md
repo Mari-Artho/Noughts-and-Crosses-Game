@@ -1,2 +1,2 @@
-# Game
+# Noughts and CrossesGame
 ⭕️❌-Game
