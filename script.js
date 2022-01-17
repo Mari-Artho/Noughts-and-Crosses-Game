@@ -1,4 +1,4 @@
-var currentPlayer = "O";
+var currentPlayer = "🐻";
 var won = false;
 
 function place(box){
@@ -6,7 +6,7 @@ function place(box){
     if(box.innerText != "" || won) return;
     //If the box is "current player", enter a different value
     box.innerText = currentPlayer;
-    currentPlayer == "O" ? currentPlayer = "X" : currentPlayer = "O";
+    currentPlayer == "🐻" ? currentPlayer = "🐙" : currentPlayer = "🐻";
     checkGameBoard();
 }
 
@@ -37,5 +37,4 @@ function checkWinner(first,second,third){
         alert("Congratulation! You win!!");
         won = true;
     }
-   
 }
