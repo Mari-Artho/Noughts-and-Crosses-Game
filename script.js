@@ -1,8 +1,9 @@
 var currentPlayer = "O";
+var won = false;
 
 function place(box){
     //If there is a letter in the box, it will not change
-    if(box.innerText !="") return;
+    if(box.innerText != "" || won) return;
     //If the box is "current player", enter a different value
     box.innerText = currentPlayer;
     currentPlayer == "O" ? currentPlayer = "X" : currentPlayer = "O";
@@ -33,6 +34,8 @@ function checkGameBoard(){
 
 function checkWinner(first,second,third){
     if(first != "" && first==second && first==third){
-        alert("You are amazing!");
+        alert("Congratulation! You win!!");
+        won = true;
     }
+   
 }
