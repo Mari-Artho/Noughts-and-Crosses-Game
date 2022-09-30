@@ -32,6 +32,10 @@ section{
         margin-left: 2rem;
         width: fit-content;
     }
+    h1, p {
+        color: rgb(243, 127, 44);
+        font-size: 1rem;
+    }
     
 }
 
