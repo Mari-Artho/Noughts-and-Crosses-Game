@@ -13,11 +13,10 @@ function place(box){
 function checkGameBoard(){
     //Horizontal
    for(var i=0; i<=2; i++){
-    // var first = document.getElementById("0_" +i).innerText;
-    // var second = document.getElementById("1_" +i).innerText;
-    // var third = document.getElementById("2_" +i).innerText;
     //checkWinner(first,second,third);
-    checkWinner(document.getElementById("0_" +i).innerText,document.getElementById("1_" +i).innerText, document.getElementById("2_" +i).innerText)
+    checkWinner(document.getElementById("0_" +i).innerText,
+                document.getElementById("1_" +i).innerText, 
+                document.getElementById("2_" +i).innerText)
     } 
 
     //Vertical

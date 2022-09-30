@@ -20,13 +20,19 @@ section{
     float: left;
     font-size: 3.5rem;
     border-color: darkgreen;
-   
-    
 }
 
 .row {
     clear: both;
 }
 
+/* Mobile*/
+@media screen and (max-width: 520px){
+    section {
+        margin-left: 2rem;
+        width: fit-content;
+    }
+    
+}
 
 
