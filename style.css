@@ -34,7 +34,7 @@ section{
     }
     h1, p {
         color: rgb(13, 129, 30);
-        font-family: cursive;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         font-size: 1rem;
     }
     
